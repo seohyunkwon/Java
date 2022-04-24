@@ -17,9 +17,12 @@ public class Convert {
 		
 		int d1 = (int)c1;
 		int d2 = (int)c2;
+		
 		System.out.println("그러나 int 타입으로 출력하면 유니코드인 "+d1+"로 출력된다.");
 		System.out.println("따라서, [ System.out,println('"+d1+"'-'0'); ]의 값은 char 타입으로 자동 형변환 되어서 "+(d1-d2)+"의 값이 산출된다");
 		System.out.println("이는 char타입을 int타입으로 변환할 때 [ '"+d1+"' -'0' ]를 수행하는 이유를 설명해준다.");
+	
+		//22. 4. 24 printf를 사용해서 표현해보기 연습해볼 것 !
 		
 	}
 	
