@@ -14,6 +14,6 @@ public class Ex03_13 {
 //		
 		int diff = a>=b ? a-b : b-a;
 		System.out.println("두 값의 차는 "+ diff +"입니다.");
-	}
+	} 
 
 }
