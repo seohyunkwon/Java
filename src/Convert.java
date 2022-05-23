@@ -7,7 +7,7 @@ public class Convert {
 //		'2'-> char , '0'-> char
 		
 		System.out.println("산술변환 이해해보기");
-		System.out.println("1~9 사이의 문자를 입력하세요.");
+		System.out.println("0~9 사이의 문자를 입력하세요.");
 		
 		Scanner scanner = new Scanner(System.in);
 		char c1 = scanner.next().charAt(0); // nextChar 변수 불가, String으로 입력 후 변환해야 함
@@ -22,7 +22,7 @@ public class Convert {
 		System.out.println("따라서, [ System.out,println('"+d1+"'-'0'); ]의 값은 char 타입으로 자동 형변환 되어서 "+(d1-d2)+"의 값이 산출된다");
 		System.out.println("이는 char타입을 int타입으로 변환할 때 [ '"+d1+"' -'0' ]를 수행하는 이유를 설명해준다.");
 	
-		//22. 4. 24 printf를 사용해서 표현해보기 연습해볼 것 !
+//22. 4. 24 printf를 사용해서 표현해보기 연습해볼 것 !
 		
 	}
 	
